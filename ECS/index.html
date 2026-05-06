@@ -23,13 +23,14 @@
  			<ul>
 				<li> Interactive timeline for the life of the tennis player Roger Federer.</li>
  				<li>Hover over different years to see a discription of his life.</li>
+				<li>The Roger Federer Timeline serves as a data-driven application that organizes historical milestones into a chronological sequence. Each major event in Federer's life is displayed, and hovering over it triggers mouseX and mouseY in histEvent to activate, which then gives an effect on the screen.</li>
 			</ul>
   			<img src="../images/Timeline.png" alt="Timeline" width="600" >
  			<h5><a href="Timeline.pde">Timeline Project</a></h5>
 	  	<h4> Mini Project </h4>
  
  			<ul>
-				<li>Slot Machine simulator with simple shapes.</li>
+				<li>The Slot Machine simulator simplifies the complexity of a casino game into an array-based logic system. It uses an Array to store different "Shape" objects, such as circles, squares, or triangles. When the user triggers the "spin" method, the program utilizes a random number generator to select indices from the array, assigning them to three distinct slot objects. This demonstrates polymorphism if the shapes inherit from a base Shape class but render differently. The win-detection logic then compares the properties of these objects to determine if a match has occurred, providing immediate feedback to the user.</li>
  				<li>Press "1" to Spin!.</li>
 			</ul>
   			<img src="../images/Mini_Project.png" alt="Mini Project" width="600" >
@@ -46,10 +47,18 @@
  
  			<ul>
 				<li>Timer Application</li>
- 				<li>Use start, stop, and reset to manipulate 10 sec. timer.</li>
+ 				<li>Timer is a specialized utility class designed for precision and state management. It features a constructor that initializes a 10-second duration and uses methods for start(), stop(), and reset() to control the program logic. By storing the elapsed time in a private instance variable, the class maintains encapsulation, preventing external code from accidentally tempering with the clock's internal countdown. When the timer hits zero, a conditional check within the update loop triggers a visual alert, showcasing a simple yet effective use of event-driven programming</li>
 			</ul>
   			<img src="../images/Timer.png" alt="Timer" width="600" >
  			<h5><a href="Timer.zip">Timer</a></h5>
+	  		
+	  		<ul>
+				<li>Tank Game</li>
+				<li>WASD to move, click to shoot. Collect powerups and hit rocks to increase score</li>
+ 				<li>The Tank Game is built upon a Class hierarchy where the Tank and Projectile objects interact within a coordinate system. The user controls the tank's movement and firing via methods such as instance variables. To handle the four power-ups, I utilized an ArrayList to dynamically manage their presence on the screen. Each power-up is an object of a PowerUp class, which uses encapsulation to hide its specific effect (e.g., speed boost or turret) until the tank’s hit-box intersects with it. This interaction triggers game logic that modifies the tank’s attributes in real-time, demonstrating how objects can communicate and influence each other's states.</li>
+			</ul>
+  			<img src="../images/TankGame.png" alt="TankGame" width="600" >
+ 			<h5><a href="https://github.com/andrewjiao123/TankGame">Tank Game Repository</a></h5>
 	  
 	  
 	  <h3>Certifications</h3>
